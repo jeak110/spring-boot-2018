@@ -8,5 +8,5 @@ import java.util.List;
 
 @RepositoryRestResource(path = "city", collectionResourceRel = "city")
 public interface CityRestRepository extends JpaRepository<City, Long> {
-    List<City> getCitiesByCityLike(@Param("city") String city);
+
 }
